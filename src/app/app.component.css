@@ -1,0 +1,71 @@
+.mynav{
+    background-color: black;
+    display: flex;
+    height:70px;
+    width: 100%;
+    position: fixed;
+}
+
+.filter{
+    padding-top: 10px;
+}
+
+button{
+    color: white;
+}
+
+.name{
+    width:85%;
+    color: white;
+    font-size: 27px;
+}
+
+.icon{
+    display: flex;
+    width: 10%;
+}
+
+.link{
+    width:50%
+}
+
+.fa{
+    font-size:27px;
+    color: white;
+    justify-content: center;
+}
+
+
+  
+.fa:hover {
+    opacity: 0.7;
+    color: gold;
+}
+
+
+.name , .icon{
+    padding-top:17px;
+}
+
+@media (max-width:600px){
+    
+.fa{
+    font-size:27px;
+    color: white;
+    justify-content: center;
+}
+
+.filter{
+    width: 10%;
+}
+
+.name{
+    padding-left: 17px;
+    width: 70%;
+    font-size: 21px;
+}
+
+.icon{
+    width: 20%;
+}
+}

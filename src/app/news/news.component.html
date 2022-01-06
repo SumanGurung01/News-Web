@@ -1,0 +1,19 @@
+<div class="makinbody">
+<h2 align="center" style="font-size: 29px;">TOP HEADLINES</h2>
+<p align="center" style="font-size: 17px;">{{catagory}}</p>
+<div class="news">
+    <div class="newsbullet" *ngFor="let bullet of pernews">
+        <div class="img">
+            <img src="{{bullet.urlToImage}}" alt="" >
+        </div>
+        <div class="content">
+            <div class="paragraph">{{bullet.title}}</div>
+            <div class="button"><a href="{{bullet.url}}">Read More</a></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+</div>
